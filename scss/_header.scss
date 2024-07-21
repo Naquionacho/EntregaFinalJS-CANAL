@@ -1,0 +1,39 @@
+header{
+  .navbar{
+    .container-fluid{
+        h1{
+        .navbar-brand{
+          font-size: 2rem;
+          color: $color-titulo;
+        }
+      }
+      .collapse{
+        .navbar-nav{
+          .nav-item{
+            .nav-link{
+              color: $color-titulo;
+            }
+            .dropdown-menu{
+              background-image: $fondo;
+              .dropdown-item{
+                color: $color-titulo;
+              }
+            }
+          }
+        }
+        .d-flex{
+          color: $color-titulo;
+          .form-control{
+            background-image: $fondo;
+            border: 2px solid yellow;
+            color: $color-titulo;
+          }
+          .btn{
+            color:$color-titulo;
+            border: 2px solid yellow;
+          }
+        }
+      }
+    }
+  }
+}
