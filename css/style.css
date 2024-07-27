@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: radial-gradient(red, rgb(4, 3, 2));
+}
+
+header .navbar .container-fluid h1 .navbar-brand {
+  font-size: 2rem;
+  color: #dced27;
+}
+header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
+  color: #dced27;
+}
+header .navbar .container-fluid .collapse .navbar-nav .nav-item .dropdown-menu {
+  background-image: radial-gradient(red, rgb(4, 3, 2));
+}
+header .navbar .container-fluid .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+  color: #dced27;
+}
+header .navbar .container-fluid .collapse .d-flex {
+  color: #dced27;
+}
+header .navbar .container-fluid .collapse .d-flex .form-control {
+  background-image: radial-gradient(red, rgb(4, 3, 2));
+  border: 2px solid yellow;
+  color: #dced27;
+}
+header .navbar .container-fluid .collapse .d-flex .btn {
+  color: #dced27;
+  border: 2px solid yellow;
+}
+
+/*# sourceMappingURL=style.css.map */
